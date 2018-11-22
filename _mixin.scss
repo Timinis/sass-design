@@ -1,0 +1,9 @@
+@mixin transform($pixel) {
+  height: $pixel;
+  width: $pixel * 0.75;
+}
+
+@mixin colorLighten($color) {
+  color: lighten($color, 10);
+  background-color: darken($color, 10);
+}

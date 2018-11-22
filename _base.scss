@@ -1,0 +1,31 @@
+body {
+  background-color: $backGroundColor;
+  header {
+    h1 {
+      color: white;
+      border: white 1px solid;
+    }
+  }
+  .green {
+    background-color: green;
+    h4 {
+      font-size: 24px;
+    }
+    a {
+      margin: 5px;
+      border: white 1px solid;
+      padding: 2px;
+    }
+  }
+  .red {
+    background-color: red;
+    h4 {
+      font-size: 24px;
+    }
+    a {
+      margin: 5px;
+      border: white 1px solid;
+      padding: 2px;
+    }
+  }
+}
